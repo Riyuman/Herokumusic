@@ -16,7 +16,7 @@ def help_pannel(_, START: Union[bool, int] = None):
         ),
         InlineKeyboardButton(
             text="ᴍᴏʀᴇ",
-            url=f"t.me/iamkaal",
+            url=f"t.me/movie_providing_group",
         ),
         InlineKeyboardButton(
             text="ᴄʟᴏsᴇ", callback_data=f"close"

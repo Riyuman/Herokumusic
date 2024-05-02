@@ -58,16 +58,16 @@ async def init():
         )
     except NoActiveGroupCall:
         LOGGER("SankiMusic").error(
-            "[ERROR] - \n\nHey, At first Please Turn On VC in Your Logger Group."
+            "[ERROR] - \n\nHey, first Please Turn On VC in Your Logger Group."
         )
         sys.exit()
     except:
         pass
     await Kaal.decorators()
-    LOGGER("SankiMusic").info("Congratulations, Your SankiMusic Bot Now Deployed ...")
+    LOGGER("SankiMusic").info("Congratulations, Your HerokuMusic Bot Now Deployed ...")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("SankiMusic").info("Stopping Music Bot...")
+    LOGGER("SankiMusic").info("Stopping Tmm Music Bot...")
